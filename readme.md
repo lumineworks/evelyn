@@ -11,6 +11,8 @@
 ## Supports
 
 1. PostgreSQL: `lutfika/evelyn:ubuntu24-pgsql-rclone`
+2. Microsoft SQL Server `lutfika/evelyn:ubuntu24-mssql-rclone`
+
 
 ## Before You Start
 

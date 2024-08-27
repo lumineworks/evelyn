@@ -1,0 +1,22 @@
+version: '3.0'
+
+services:
+  backup:
+    networks:
+      - bridge
+    build: 
+      context: .
+      args:
+        - ENV_FILE=/.env
+      dockerfile: Dockerfile
+    volumes:
+      - ./.env:/.env
+      - ./rclone.conf:/root/.config/rclone/rclone.conf
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+
+networks:
+  bridge:
+    driver: bridge
+
+    
