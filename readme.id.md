@@ -1,6 +1,4 @@
-Berikut adalah terjemahan teks tersebut ke dalam bahasa Indonesia:
 
----
 
 ## Lutfika Evelyn
 
@@ -10,6 +8,8 @@ Berikut adalah terjemahan teks tersebut ke dalam bahasa Indonesia:
 ## Image
 
 1. PostgreSQL: `lutfika/evelyn:ubuntu24-pgsql-rclone`
+2. Microsoft SQL Server `lutfika/evelyn:ubuntu24-mssql-rclone`
+
 
 ## Sebelum Anda Memulai
 
@@ -22,7 +22,7 @@ Berikut adalah terjemahan teks tersebut ke dalam bahasa Indonesia:
 
 ## Konfigurasikan!
 
-1. Pergi ke [/example/postgres/rcfg](/example/postgres/rcfg) dan salin file-file tersebut ke lokasi di mana Anda ingin mengatur server job backup.
+1. Pergi ke [Contoh konfigurasi](/example/) dan salin file-file tersebut ke lokasi di mana Anda ingin mengatur server job backup.
 2. Konfigurasikan file `.env.example` dan ubah namanya menjadi `.env`.
 3. Salin file konfigurasi Rclone terbaru ke file `rclone.conf` yang disediakan dalam contoh. File konfigurasi ini dibuat pada bagian "Sebelum Anda Memulai" (harap baca dengan seksama).
 4. CATATAN: Pastikan `RESTIC_REPOSITORY` sesuai dengan konfigurasi yang Anda buat.

@@ -11,6 +11,8 @@
 ## Supports
 
 1. PostgreSQL: `lutfika/evelyn:ubuntu24-pgsql-rclone`
+2. Microsoft SQL Server `lutfika/evelyn:ubuntu24-mssql-rclone`
+
 
 ## Before You Start
 
@@ -23,7 +25,7 @@
 
 ## Configure It!
 
-1. Go to [example/postgres/rcfg](example/postgres/rcfg) and copy the files to the location where you want to set up the backup job server.
+1. Go to [Configuration Examples](example/) and copy the files to the location where you want to set up the backup job server.
 2. Configure the `.env.example` file and rename it to `.env`.
 3. Copy the latest Rclone configuration file to the `rclone.conf` file provided in the example. The configuration file was generated in the "Before You Start" section (please read carefully).
 4. NOTE: Ensure that the `RESTIC_REPOSITORY` matches the configuration you set up.
