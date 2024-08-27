@@ -1,6 +1,4 @@
-Berikut adalah terjemahan teks tersebut ke dalam bahasa Indonesia:
 
----
 
 ## Lutfika Evelyn
 
